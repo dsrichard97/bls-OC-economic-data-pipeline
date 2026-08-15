@@ -47,22 +47,4 @@ This allows analysts to spend more time on higher-value activities such as:
 
 The pipeline follows a modern ETL architecture:
 
-```mermaid
-flowchart LR
-
-    A["BLS API v2<br/>(JSON)"]
-    -->|"Extract<br/>Python"|
-    B["Pandas DataFrame<br/>Transformation"]
-
-    B
-    -->|"Load<br/>PyMySQL Upsert"|
-    C[("MariaDB / MySQL<br/>Central Data Store")]
-
-    C
-    -->|"SQL Query / View"|
-    D["Analytics Layer"]
-
-    D
-    -->|"Live Data"|
-    E["BI Dashboard<br/>Economic Forecasting"]
 
