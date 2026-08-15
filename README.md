@@ -23,9 +23,9 @@ The pipeline follows a standard ETL architecture:
 
 ```mermaid
 graph LR
-    A["BLS API v2 - JSON"] -->|Python Script| B["Pandas DataFrame - Transformation"]
+    A["BLS API - JSON"] -->|Python Script| B["Pandas DataFrame - Transformation"]
     B -->|PyMySQL Upsert| C[("MariaDB - Central Data Store")]
-    C -->|Live Query| D["BI Dashboard - Economic Forecasting"]
+    C -->|Live Query| D["BI Dashboard - Economic OC Dashboard"]
 
     classDef default fill:#111,stroke:#00FF88,stroke-width:2px,color:#FFF;
     class A,B,C,D default;
