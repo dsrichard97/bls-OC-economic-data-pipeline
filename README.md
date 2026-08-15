@@ -20,9 +20,10 @@ graph LR
     C -->|Live Query| D[BI Dashboard<br/>Economic Forecasting]
     classDef default fill:#111,stroke:#00FF88,stroke-width:2px,color:#FFF;
     class A,B,C,D default;
+```
 
 ## 📖 Teck Stack
-Refer to the Project(ETL FLOW).png
+Refer to the Project Folder(ETL FLOW.png)
 
 ## 📂 Project Structure
 socal-economic-etl-pipeline/
