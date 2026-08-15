@@ -37,7 +37,7 @@ graph LR
 
 To understand why this architecture was built, we apply the **5 Focusing Steps of the Theory of Constraints** to our data operations:
 
-1. **Identify the Constraint:** Manual data extraction and spreadsheet management are our system bottlenecks. Analysts waste valuable hours gathering data instead of performing analysis.
+1. **Identify the Constraint:** Manual data extraction and spreadsheet management are our system bottlenecks. Analysts waste valuable hours and dollars(\$$$) gathering data instead of performing analysis.
 2. **Exploit the Constraint:** Automate the entire `Extract` phase using the BLS API so external data is pulled instantly with zero manual effort.
 3. **Subordinate Everything Else:** Align downstream scripting and storage so they run automatically on a fixed schedule, ensuring non-bottleneck processes don't create excess work or data duplication.
 4. **Elevate the Constraint:** Implement bulk `UPSERT` operations and robust Python pipelines to handle high-frequency data ingestion securely without hitting rate limits or crashing.
