@@ -36,10 +36,7 @@ This allows analysts to spend more time on higher-value activities such as:
 
 - 📈 Economic forecasting
 - 🔮 Scenario analysis
-- 💰 Financial planning
-- 📊 Statistical analysis
 - 🧠 Business strategy
-- 📉 Trend analysis
 
 ---
 
