@@ -139,7 +139,7 @@ python src/bls_api_extractor.py
 
 This pipeline enables direct calculation of key forecasting models for executive leadership:
 
-* **Real Wage Growth:** Tracking local average hourly earnings against the LA Metro CPI to adjust regional payroll budgets.
+* **Real Wage Growth:** Tracking local average hourly earnings against the OC CPI to adjust regional payroll budgets.
 * **Cost of Living Impacts:** Using the Shelter Index to estimate localized operational expense increases.
 * **Labor Market Tightness:** Tracking Orange County unemployment figures to forecast talent acquisition difficulty.
 
@@ -147,9 +147,6 @@ By breaking the data aggregation constraint, we shift operational expense ($OE$)
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome. Please open an issue to discuss proposed changes before submitting a pull request.
 
 ## 📄 License
 
